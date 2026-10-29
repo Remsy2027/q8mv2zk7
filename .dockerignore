@@ -1,0 +1,13 @@
+node_modules
+.venv
+.git
+.vercel
+dist
+artifacts
+__pycache__
+*.pyc
+challenge.txt
+probe.json
+actual-probe.json
+.vercel_python_packages
+*.tmp
