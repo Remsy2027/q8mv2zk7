@@ -2,6 +2,8 @@
 
 Decision-time wind intelligence for Great Britain day-ahead power procurement. Built for the REint full-stack challenge with **React + TypeScript**, **Python + FastAPI**, **Elexon real historical data**, and **Docker**.
 
+**Repository:** https://github.com/Remsy2027/q8mv2zk7
+
 **Deployment:** Vercel-ready; a production URL will be added after deployment. See the deployment steps below. **Demo video:** recording pending; the complete two-part script is in [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md).
 
 ## What the pilot does

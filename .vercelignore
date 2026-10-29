@@ -8,4 +8,3 @@ probe.json
 actual-probe.json
 __pycache__
 *.pyc
-.vercel_python_packages

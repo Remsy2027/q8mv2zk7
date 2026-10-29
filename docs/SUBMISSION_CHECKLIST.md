@@ -5,7 +5,7 @@
 - [x] Decision-time forecast selection, hourly alignment, quantitative scores and CSV.
 - [x] Docker and Vercel configuration, tests, technical review and timed demo script.
 - [ ] Production Vercel or Heroku URL verified without authentication.
-- [ ] Public GitHub repository with an anonymous name.
+- [x] Public GitHub repository: https://github.com/Remsy2027/q8mv2zk7.
 - [ ] README updated with the actual deployment URL.
 - [ ] Record the two-part demonstration using `docs/DEMO_SCRIPT.md` (less than ten minutes).
 - [ ] Upload the finished video to YouTube as **unlisted** and copy its URL.
