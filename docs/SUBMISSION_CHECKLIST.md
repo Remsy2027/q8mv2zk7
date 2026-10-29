@@ -4,9 +4,9 @@
 - [x] Elexon FUELHH WIND and WINDFOR data; January 2026 decision window.
 - [x] Decision-time forecast selection, hourly alignment, quantitative scores and CSV.
 - [x] Docker and Vercel configuration, tests, technical review and timed demo script.
-- [ ] Production Vercel or Heroku URL verified without authentication.
+- [x] Production Vercel URL https://q8mv2zk7.vercel.app verified with unauthenticated HTTP requests.
 - [x] Public GitHub repository: https://github.com/Remsy2027/q8mv2zk7.
-- [ ] README updated with the actual deployment URL.
+- [x] README updated with the actual deployment URL.
 - [ ] Record the two-part demonstration using `docs/DEMO_SCRIPT.md` (less than ten minutes).
 - [ ] Upload the finished video to YouTube as **unlisted** and copy its URL.
 - [ ] Open app, repo and video URLs in a private/incognito browser and verify access.

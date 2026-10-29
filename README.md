@@ -4,7 +4,11 @@ Decision-time wind intelligence for Great Britain day-ahead power procurement. B
 
 **Repository:** https://github.com/Remsy2027/q8mv2zk7
 
-**Deployment:** Vercel-ready; a production URL will be added after deployment. See the deployment steps below. **Demo video:** recording pending; the complete two-part script is in [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md).
+**Live app:** https://q8mv2zk7.vercel.app
+
+**API documentation:** https://q8mv2zk7.vercel.app/api/docs
+
+**Demo video:** recording pending; the complete two-part script is in [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md).
 
 ## What the pilot does
 
@@ -83,7 +87,7 @@ npx vercel login
 npx vercel --prod
 ```
 
-Use the Vite framework preset if prompted and keep the supplied build/output configuration. After deployment, verify `/`, `/api/health`, `/api/analysis?cutoff=09:00`, `/api/export` and `/api/docs`. Confirm Deployment Protection does not prevent signed-out access before submission. Replace the deployment placeholder at the top of this README with the returned public URL.
+Use the Vite framework preset if prompted and keep the supplied build/output configuration. If a new checkout's directory contains uppercase characters, pass `--name q8mv2zk7` or another lowercase project name when creating the project. After deployment, verify `/`, `/api/health`, `/api/analysis?cutoff=09:00`, `/api/export` and `/api/docs`. Confirm Deployment Protection does not prevent signed-out access before submission. The production link above has been checked with unauthenticated HTTP requests.
 
 Alternatively, the supplied Dockerfile respects `$PORT` and can run on a Heroku container stack. Heroku requires an account, app and paid compute; no paid resources are created by this repository.
 
